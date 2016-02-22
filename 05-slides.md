@@ -73,7 +73,7 @@ Solution: only execute a step when something has changed:
 
 * When `main.c` changes, rebuild `main.o` , then `program`
 
-* When `parser.y` changes, rebuild `parser.c` , then `parser.`, then `program`.
+* When `parser.y` changes, rebuild `parser.c` , then `parser.o`, then `program`.
 
 --------------------------------------------------------------------------------
 
@@ -622,7 +622,7 @@ Hello wouter
 Variables start with a dollar sign; use single quotes to prevent variable substitution.
 
 ```
-$ echo 'Hello $USER
+$ echo 'Hello $USER'
 Hello $USER
 ```
 

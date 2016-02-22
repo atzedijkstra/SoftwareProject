@@ -1,3 +1,6 @@
+% Changes relative to original (pandoc -D beamer):
+%   20160211 AD: scaled down scaling of pictures by 2/3 their size, by setting maxwidth and maxheight accordingly
+
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{: }
